@@ -15,7 +15,8 @@
     "build": "tsc && npm run copy && npm run copytemplates",
     "watch": "tsc --watch",
     "serve": "http-server -p 9090 -c-1",
-    "test": "karma start karma.conf.js --singleRun"
+    "test": "karma start karma.conf.js --singleRun",
+    "serveTest": "karma start karma.conf.js"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.1",
